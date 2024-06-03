@@ -1,7 +1,7 @@
 import { Creature } from "./Creature";
 
 export class Monster extends Creature{
-    constructor(){
-
+    constructor(name, life, maxLife, attack){
+        super(name, life, maxLife, attack)
     }
 }
